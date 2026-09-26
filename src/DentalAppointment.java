@@ -2,11 +2,11 @@ public abstract class DentalAppointment extends BasedRecord {
    private String id;
    private String studentID;
    private String service;
-   private LocalDateTime AppointmentDate;
+   private LocalDateTime appointmentDate;
    private String dentist;
    private String status;
    
-   DentalAppointment(String id, String studentID, String service, LocalDateTime AppointmentDate, String dentist, String status) {
+   DentalAppointment(String id, String studentID, String service, LocalDateTime appointmentDate, String dentist, String status) {
        this.id = id;
        this.studentID = studentID;
        this.service = service;
